@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8AEC9381C7FFB21004F4490 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AEC9371C7FFB21004F4490 /* PictureViewController.swift */; };
 		D8FE87C11C7EA945001DF15F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE87C01C7EA945001DF15F /* AppDelegate.swift */; };
 		D8FE87C31C7EA946001DF15F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE87C21C7EA945001DF15F /* ViewController.swift */; };
 		D8FE87C61C7EA946001DF15F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FE87C41C7EA946001DF15F /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		D8FE87CB1C7EA946001DF15F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FE87C91C7EA946001DF15F /* LaunchScreen.storyboard */; };
 		D8FE87D61C7EA946001DF15F /* ceoJokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE87D51C7EA946001DF15F /* ceoJokesTests.swift */; };
 		D8FE87E11C7EA946001DF15F /* ceoJokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE87E01C7EA946001DF15F /* ceoJokesUITests.swift */; };
+		D8FE87EF1C7EAA8D001DF15F /* FeedCollectionViewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE87EE1C7EAA8D001DF15F /* FeedCollectionViewCollectionViewController.swift */; };
+		D8FE87F11C7EAB5E001DF15F /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE87F01C7EAB5E001DF15F /* FeedCollectionViewCell.swift */; };
+		D8FE87F31C7EADD3001DF15F /* ProductsViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE87F21C7EADD3001DF15F /* ProductsViewControllerTableViewController.swift */; };
+		D8FE87F51C7EB6B6001DF15F /* ProductsCollectionViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE87F41C7EB6B6001DF15F /* ProductsCollectionViewCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8AEC9371C7FFB21004F4490 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		D8FE87BD1C7EA945001DF15F /* ceoJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceoJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FE87C01C7EA945001DF15F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8FE87C21C7EA945001DF15F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		D8FE87DC1C7EA946001DF15F /* ceoJokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceoJokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FE87E01C7EA946001DF15F /* ceoJokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceoJokesUITests.swift; sourceTree = "<group>"; };
 		D8FE87E21C7EA946001DF15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FE87EE1C7EAA8D001DF15F /* FeedCollectionViewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedCollectionViewCollectionViewController.swift; path = ../FeedCollectionViewCollectionViewController.swift; sourceTree = "<group>"; };
+		D8FE87F01C7EAB5E001DF15F /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8FE87F21C7EADD3001DF15F /* ProductsViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		D8FE87F41C7EB6B6001DF15F /* ProductsCollectionViewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,12 @@
 			children = (
 				D8FE87C01C7EA945001DF15F /* AppDelegate.swift */,
 				D8FE87C21C7EA945001DF15F /* ViewController.swift */,
+				D8FE87EE1C7EAA8D001DF15F /* FeedCollectionViewCollectionViewController.swift */,
+				D8FE87F01C7EAB5E001DF15F /* FeedCollectionViewCell.swift */,
+				D8FE87F21C7EADD3001DF15F /* ProductsViewControllerTableViewController.swift */,
+				D8FE87F41C7EB6B6001DF15F /* ProductsCollectionViewCellTableViewCell.swift */,
 				D8FE87C41C7EA946001DF15F /* Main.storyboard */,
+				D8AEC9371C7FFB21004F4490 /* PictureViewController.swift */,
 				D8FE87C71C7EA946001DF15F /* Assets.xcassets */,
 				D8FE87C91C7EA946001DF15F /* LaunchScreen.storyboard */,
 				D8FE87CC1C7EA946001DF15F /* Info.plist */,
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8FE87EF1C7EAA8D001DF15F /* FeedCollectionViewCollectionViewController.swift in Sources */,
+				D8FE87F31C7EADD3001DF15F /* ProductsViewControllerTableViewController.swift in Sources */,
+				D8FE87F51C7EB6B6001DF15F /* ProductsCollectionViewCellTableViewCell.swift in Sources */,
 				D8FE87C31C7EA946001DF15F /* ViewController.swift in Sources */,
+				D8AEC9381C7FFB21004F4490 /* PictureViewController.swift in Sources */,
+				D8FE87F11C7EAB5E001DF15F /* FeedCollectionViewCell.swift in Sources */,
 				D8FE87C11C7EA945001DF15F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +505,7 @@
 				D8FE87E71C7EA946001DF15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8FE87E81C7EA946001DF15F /* Build configuration list for PBXNativeTarget "ceoJokesTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +514,7 @@
 				D8FE87EA1C7EA946001DF15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8FE87EB1C7EA946001DF15F /* Build configuration list for PBXNativeTarget "ceoJokesUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +523,7 @@
 				D8FE87ED1C7EA946001DF15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
